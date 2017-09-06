@@ -7,6 +7,10 @@ namespace DemoApp.Models
 {
     public class PaypalModel
     {
+        public PaypalModel()
+        {
+
+        }
         public string cmd { get; set; }
         public string business { get; set; }
         public string no_shipping { get; set; }
@@ -16,7 +20,6 @@ namespace DemoApp.Models
         public string currency_code { get; set; }
         public string item_name { get; set; }
         public string amount { get; set; }
-        public string actionURL { get; set; }
 
     }
 }
