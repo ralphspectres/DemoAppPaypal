@@ -1,9 +1,7 @@
 ﻿
 @model DemoApp.Models.PaypalModel
-<head>
-    <title>Index</title>
-    <script src="@Url.Content("~/Scripts/jquery-1.10.1.min.js")" type="text/javascript"></script>
-</head>
+
+
 <body>
     <form id="hiddenform" action=@Model.actionURL>
         @Html.HiddenFor(model => model.cmd)

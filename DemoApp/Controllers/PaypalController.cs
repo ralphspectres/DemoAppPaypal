@@ -25,6 +25,7 @@ namespace DemoApp.Controllers
             return View();
         }
 
+
         public ActionResult ValidateCommand(string product, string totalPrice)
         {
             bool useSandbox = Convert.ToBoolean(ConfigurationManager.AppSettings["IsSandbox"]);
