@@ -10,7 +10,7 @@ namespace DemoApp.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult PostToPaypal(string item, string amount)
+        public ActionResult PaypalView(string item, string amount)
         {
             DemoApp.Models.PaypalModel paypal = new Models.PaypalModel();
             paypal.cmd = "_xclick";
